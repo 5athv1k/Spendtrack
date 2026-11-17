@@ -11,6 +11,9 @@
   "keywords": ["mern", "express", "mongodb", "expense-tracker"],
   "author": "Sathvik B R",
   "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
