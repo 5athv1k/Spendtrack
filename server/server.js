@@ -14,7 +14,7 @@ const app = express();
 
 // Middlewares
 app.use(cors({
-  origin: '*', // Allow frontend development requests
+  origin: true, // Dynamically allows all origins (Vercel, localhost)
   credentials: true,
 }));
 app.use(express.json());
